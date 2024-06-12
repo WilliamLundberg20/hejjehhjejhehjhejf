@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Wallpaper{
+    width: 390px;
+    height: 844px;
+    background-image: url(Wallpaper.svg);
+    border-radius: 0px;
+}
+
+.n{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 77%;
+}
+
+.nd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 366px;
+    height: 85px;
+    border-radius: 300px;
+    background-color: rgba(146, 146, 146, 0.5);
+}
+
+.Apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 300px;
+}
+
+.AppGrupp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AppNamn{
+    font-size: 14px;
+}
+
+.ag{
+    display: flex;
+    align-items: start;
+    margin: 40px 20px;
+    height: 10%;
+}
+
+.AllaAppar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5% 15%;
+}
+
+.B{
+    display: flex;
+    justify-content: center;
+}
+
+.BD{
+    position: fixed;
+    width: 100px;
+    height: 5px;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    bottom: 50px;
+}
+
+.c{
+    background-color:  rgb(126, 126, 126);
+    width: 390px;
+    height: 844px;
+    border-radius: 0px;
+}
+
+.SG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 16%;
+}
+
+.I {
+    display: flex;
+}
+
+.Ic {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    border-radius: 300px;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px 5px;
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+img.Ii {
+    width: 50px;
+    height: 50px;
+}
+
+.It {
+    width: auto;
+    height: auto;
+}
+
+input#Ibutton {
+    display: none;
+}
+
+.PopUp{
+    display: none;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+
+    bottom: 0px;
+
+    width: 390px;
+    height: 844px;
+    background-color: rgb(112, 61, 61);
+  }
+  
+.PG{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.PT{
+    
+    font-size: 25px;
+}
+
+input#Pbutton {
+    font-size: 25px;
+    height: 57px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.K{
+    display: flex;
+    width: 200px;
+    height: 60px;
+}
